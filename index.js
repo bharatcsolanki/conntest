@@ -5,7 +5,7 @@ var express = require('express'),
     app = express(),
     db;
 
-//Get data in body from frontend
+//Get data in body from frontend tts
 app.use(bodyParser.urlencoded({ extended: true }))
 
 //empModel is our collection(table) name
